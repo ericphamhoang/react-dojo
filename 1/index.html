@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>React Dojo 1</title>
+    <script src="../bower_components/react/react.min.js"></script>
+    <script src="../bower_components/react/react-dom.min.js"></script>
+    <script src="../bower_components/babel/browser.min.js"></script>
 </head>
 <body>
-<div id="dojo1"></div>
-<script src="://cdnjs.cloudflare.com/ajax/libs/react/15.4.0-rc.3/react.min.js"></script>
-<script src="://cdnjs.cloudflare.com/ajax/libs/react/15.4.0-rc.3/react-dom.min.js"></script>
-<script>
+<div id="jsx"></div>
+<script type="text/babel">
+    ReactDOM.render(
+            <div>JSX with react</div>,
+            document.getElementById('jsx')
+    )
 </script>
 </body>
 </html>
