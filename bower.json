@@ -1,0 +1,23 @@
+{
+  "name": "react-dojo",
+  "homepage": "https://github.com/ericphamhoang/react-dojo",
+  "authors": [
+    "you@example.com <you@example.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.3.2"
+  },
+  "devDependencies": {
+    "react": "^15.3.2"
+  }
+}
